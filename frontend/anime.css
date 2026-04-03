@@ -1,0 +1,94 @@
+/* Reset basilare */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* Titolo */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #222;
+}
+
+/* Contenitore principale */
+.anime-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Card anime */
+.anime-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+.anime-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Immagine */
+.anime-card img {
+    border-radius: 8px;
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pulsanti */
+.like-btn {
+    background: #ff4757;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+.like-btn:hover {
+    background: #e84118;
+}
+
+.likes-count {
+    display: inline-block;
+    margin-left: 8px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Form commenti */
+.comment-form {
+    margin-top: 12px;
+}
+.comment-form input[type="text"] {
+    padding: 6px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.comment-form button {
+    padding: 6px 12px;
+    border: none;
+    background: #2ed573;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.comment-form button:hover {
+    background: #1eae60;
+}
+
+/* Li*
